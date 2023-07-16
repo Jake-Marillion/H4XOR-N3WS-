@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D931CB52A646C3100E0F317 /* NetoworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D931CB42A646C3100E0F317 /* NetoworkManager.swift */; };
+		3D931CB72A646DBC00E0F317 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D931CB62A646DBC00E0F317 /* PostData.swift */; };
 		3D9D4F7C2A2BAD5700926DA1 /* H4XOR_N3WSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D4F7B2A2BAD5700926DA1 /* H4XOR_N3WSApp.swift */; };
 		3D9D4F7E2A2BAD5700926DA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D4F7D2A2BAD5700926DA1 /* ContentView.swift */; };
 		3D9D4F802A2BAD5700926DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D4F7F2A2BAD5700926DA1 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D931CB42A646C3100E0F317 /* NetoworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetoworkManager.swift; sourceTree = "<group>"; };
+		3D931CB62A646DBC00E0F317 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		3D9D4F782A2BAD5700926DA1 /* H4XOR N3WS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4XOR N3WS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9D4F7B2A2BAD5700926DA1 /* H4XOR_N3WSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4XOR_N3WSApp.swift; sourceTree = "<group>"; };
 		3D9D4F7D2A2BAD5700926DA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D931CB32A646C2300E0F317 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D931CB42A646C3100E0F317 /* NetoworkManager.swift */,
+				3D931CB62A646DBC00E0F317 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3D9D4F6F2A2BAD5700926DA1 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +64,7 @@
 		3D9D4F7A2A2BAD5700926DA1 /* H4XOR N3WS */ = {
 			isa = PBXGroup;
 			children = (
+				3D931CB32A646C2300E0F317 /* Models */,
 				3D9D4F7B2A2BAD5700926DA1 /* H4XOR_N3WSApp.swift */,
 				3D9D4F7D2A2BAD5700926DA1 /* ContentView.swift */,
 				3D9D4F7F2A2BAD5700926DA1 /* Assets.xcassets */,
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9D4F7E2A2BAD5700926DA1 /* ContentView.swift in Sources */,
+				3D931CB72A646DBC00E0F317 /* PostData.swift in Sources */,
+				3D931CB52A646C3100E0F317 /* NetoworkManager.swift in Sources */,
 				3D9D4F7C2A2BAD5700926DA1 /* H4XOR_N3WSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

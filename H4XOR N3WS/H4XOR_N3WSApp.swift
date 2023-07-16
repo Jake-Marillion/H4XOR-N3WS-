@@ -14,4 +14,4 @@ struct H4XOR_N3WSApp: App {
             ContentView()
         }
     }
-}
+} //End of Struct
